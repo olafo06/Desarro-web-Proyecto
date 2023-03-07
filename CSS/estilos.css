@@ -1,11 +1,93 @@
-.logo-fede-desktop{
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+nav-item {
+
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 70%;
+    height: 70px;
+    margin: 40px auto;
+    background-color: f8f8f8;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.logo-fede-desktop {
     width: 250px;
 }
 
-.logo-fede-mobile{
+.logo-fede-mobile {
     width: 250px;
 }
 
-ul{
+ul {
     list-style: none;
+}
+
+.title-logos {
+    width: 2500px;
+    height: auto;
+    margin: 16px;
+}
+
+.hero-text {
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 1.5;
+    font-size: 44px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.sub-text {
+    font-family: 'Roboto regular', sans-serif;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 18px;
+    margin: 40px
+}
+
+.img-redes {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Footer-titles {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 48px;
+}
+
+.footer-text {
+    font-family: 'Roboto regular', sans-serif;
+    font-size: 16px;
+    line-height: 1.25;
+    margin: 20px;
+}
+
+.titulos-galeria {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+
+.texto-galeria {
+    font-family: 'Roboto regular', sans-serif;
+    font-size: 12px;
+}
+
+.borde {
+    border-color: #000000;
+    border-width: 2px;
+    margin: 20px;
 }
