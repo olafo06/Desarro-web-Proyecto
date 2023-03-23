@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f5f5f5;
+}
+
+h1{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.title-logos {
+    width: 2500px;
+    height: auto;
+    margin: 16px;
+}
+
+ul {
+    padding: 0;
+    .nav-item {
+        font-family: 'Roboto Condensed', sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: f8f8f8;
+        a {
+            color: #fff;
+            text-decoration: none;
+            font-size: 20px;
+            &:hover {
+                color: #ff822e;
+            }
+        }
+    }
+}
+
+.logo-fede{
+    &-desktop{
+        width: 250px;
+    }
+    &-mobile{
+        width: 250px;
+
+    }
+}
+
+.img-redes {
+    width: 28px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text{
+    &-hero{
+        font-family: 'Roboto Condensed', sans-serif;
+        line-height: 1.5;
+        font-size: 40px;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+    &-sub{
+        font-family: 'Roboto regular', sans-serif;
+        text-align: center;
+        line-height: 1.25;
+        font-size: 20px;
+        margin: 40px
+    }
+}
+
+.galeria{
+    &-titulos{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 20px;
+    }
+    &-text{
+        font-family: 'Roboto regular', sans-serif;
+        font-size: 12px;
+    }
+}
+
+.footer{
+    &-titles{
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: 48px;
+    }
+    &-text{
+        font-family: 'Roboto regular', sans-serif;
+        font-size: 16px;
+        line-height: 1.25;
+        margin: 20px;
+    }
+}
+
+.borde {
+    border-color: #000000;
+    border-width: 2px;
+    margin: 20px;
+}
