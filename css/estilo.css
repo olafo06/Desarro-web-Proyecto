@@ -1,47 +1,101 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5; }
+  background-color: #f5f5f5;
+  background-image: url(/assets/imgs/BG.jpg);
+  background-size: cover;
+  /* Ajustar el tamaño de la imagen al tamaño del contenedor */
+  background-position: center;
+  /* Centrar la imagen en el contenedor */
+  padding-top: 160px;
+}
+
+
+
+header {
+  background-color: #f5f5f5;
+  height: 80px;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-size: cover;
+  position: fixed;
+  box-shadow: 4px 4px 20px 2px rgba(24, 24, 24, 0.5);
+  z-index: 999;
+}
+
+@media (max-width: 767px) {
+  header {
+    height: 140px;
+  }
+}
+
+footer {
+  background-color: #f5f5f5;
+  background-size: cover;
+  box-shadow: 4px 4px 20px 2px rgba(24, 24, 24, 0.5);
+}
+
 
 h1 {
-  font-family: 'Roboto Condensed', sans-serif; }
+  font-family: 'Roboto Condensed', sans-serif;
+}
 
 .title-logos {
   width: 2500px;
   height: auto;
-  margin: 16px; }
+  margin: 16px;
+}
 
 ul {
-  padding: 0; }
-  ul .nav-item {
-    font-family: 'Roboto Condensed', sans-serif;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: f8f8f8; }
-    ul .nav-item a {
-      color: #fff;
-      text-decoration: none;
-      font-size: 20px; }
-      ul .nav-item a:hover {
-        color: #ff822e; }
+  padding: 0;
+}
 
-.logo-fede-desktop {
-  width: 250px; }
-
-.logo-fede-mobile {
-  width: 250px; }
-
-.img-redes {
-  width: 28px;
-  height: 28px;
+ul .nav-item {
+  font-family: 'Roboto Condensed', sans-serif;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: space-around;
+  background-color: f8f8f8;
+}
+
+ul .nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+ul .nav-item a:hover {
+  color: #ff822e;
+}
+
+.logo-fede-desktop {
+  width: 250px;
+  margin-top: 8px;
+  margin-left: 20px;
+}
+
+.logo-fede-mobile {
+  width: 150px;
+  margin: 0 auto;
+
+}
+
+
+
+.img-redes {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 2px 2px 20px 1px rgba(24, 24, 24, 0.5);
+}
 
 .text-hero {
   font-family: 'Roboto Condensed', sans-serif;
@@ -49,34 +103,102 @@ ul {
   font-size: 40px;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+}
 
 .text-sub {
   font-family: 'Roboto regular', sans-serif;
   text-align: center;
   line-height: 1.25;
   font-size: 20px;
-  margin: 40px; }
+  margin: 40px;
+}
 
 .galeria-titulos {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 20px; }
+  font-size: 20px;
+}
 
 .galeria-text {
   font-family: 'Roboto regular', sans-serif;
-  font-size: 12px; }
+  font-size: 12px;
+}
 
 .footer-titles {
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 48px; }
+  font-size: 48px;
+}
 
 .footer-text {
   font-family: 'Roboto regular', sans-serif;
   font-size: 16px;
   line-height: 1.25;
-  margin: 20px; }
+  text-align: left;
+
+
+}
 
 .borde {
   border-color: #000000;
   border-width: 2px;
-  margin: 20px; }
+  margin: 20px;
+}
+
+.boton {
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: 50px;
+  box-shadow: 4px 4px 20px 2px rgba(24, 24, 24, 0.5);
+}
+
+@media only screen and (max-width: 767px) {
+  .boton {
+    position: relative;
+    top: 40px;
+    left: 100px;
+
+  }
+}
+
+hr {
+
+  height: 1px;
+  background-color: #000;
+}
+
+.imagenes-wide {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 1;
+  box-shadow: 4px 4px 50px 6px rgba(24, 24, 24, 0.5);
+}
+
+.imagenes-wide:hover {
+  opacity: 0.5;
+}
+
+.imagenes-portafolio{
+ 
+  object-fit: cover;
+  opacity: 1;
+  box-shadow: 0px 0px 20px 5px rgba(24, 24, 24, 0.3);
+}
+.imagenes-portafolio:hover {
+  opacity: 0.5;
+}
+
+.carousel-img{
+  box-shadow: 0px 0px 25px 10px rgba(24, 24, 24, 0.3);
+}
+
+.work {
+  margin-right: 100px;
+}
+
+.about {
+  margin-left: 0px;
+}
